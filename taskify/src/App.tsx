@@ -61,8 +61,6 @@ function App() {
     return (
         <DragDropContext onDragEnd={onDragEnd}>
             <div className={"App"}>
-                {/* <Todos items={todos}/>*/}
-                {/* <Header title={"blabla"} color={'red'}/>*/}
                 <span className={"heading"}>Taskify</span>
                 <InputField todo={todo} setTodo={setTodo} handleAdd={handleAdd}/>
                 <TodoList
